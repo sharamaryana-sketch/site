@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buchecha</title>
+
+    <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!-- ======================== -->
+    <!--        ESTILIZAÇÃO       -->
+    <!-- ======================== -->
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background: #fafafa;
+        color: #222;
+        line-height: 1.75;
+      }
+
+      .titulo h1 {
+        font-size: 2.8rem;
+        font-weight: 800;
+        margin-top: 20px;
+      }
+
+      .texto p {
+        font-size: 1.15rem;
+        text-align: justify;
+        margin-bottom: 18px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+      }
+
+      .foto {
+        width: 70%;
+        max-width: 900px;
+        border-radius: 12px;
+        display: block;
+        margin: 30px auto;
+        box-shadow: 0 0 12px rgba(0,0,0,0.35);
+      }
+
+      .rodape {
+        background: #1a1a1a;
+        color: white;
+        text-align: center;
+        padding: 25px 0;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="row mt-3">
+        <div class="col-11">
+          <div class="titulo">
+            <h1>Buchecha</h1>
+          </div>
+        </div>
+
+        <div class="col-1">
+          <nav class="navbar">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#menu">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end" id="menu">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Menu</h5>
+                <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+              </div>
+
+              <div class="offcanvas-body">
+                <ul class="navbar-nav pe-3">
+                  <li><a class="nav-link" href="index.html">Início</a></li>
+                  <li><a class="nav-link" href="leandrolo.html">Leandro Lo</a></li>
+                  <li><a class="nav-link" href="mica.html">Mica Galvão</a></li>
+                  <li><a class="nav-link" href="buchecha.html">Buchecha</a></li>
+                  <li><a class="nav-link" href="form.html">Contato</a></li>
+                </ul>
+
+                <form class="d-flex mt-3">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" />
+                  <button class="btn btn-outline-success">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <!-- ================== TEXTO ORGANIZADO ================== -->
+      <div class="row">
+        <div class="col-12">
+          <div class="texto">
+
+            <p>Marcus Vinicius Oliveira de Almeida, conhecido como Buchecha, nasceu em 8 de janeiro de 1990 em Santos, Brasil. Ele é um dos maiores nomes do Brazilian Jiu-Jitsu (BJJ) da história, campeão mundial em todas as faixas e em múltiplas categorias.</p>
+
+            <p>Buchecha é faixa-preta do mestre Rodrigo Cavaca, que também lhe deu o apelido “Buchecha” devido às suas bochechas grandes. Atualmente representa a equipe Checkmat e é também lutador de MMA no ONE Championship.</p>
+
+            <p>Rodrigo Cavaca foi seu principal mentor e responsável pela maior parte de sua evolução técnica. Na Checkmat, Buchecha encontrou estrutura, apoio e parceiros de treino de alto nível, consolidando sua carreira.</p>
+
+            <p>Como faixa-preta, Buchecha conquistou feitos impressionantes. Em 2012 venceu o Mundial nas categorias Absoluto e Pesadíssimo. Em 2013 repetiu o feito, vencendo atletas como Léo Leite, Leonardo Nogueira e seu próprio mestre Cavaca.</p>
+
+            <p>Em 2014 se tornou tricampeão mundial, vencendo novamente o absoluto contra Rodolfo Vieira após uma queda decisiva. Em 2016 e 2017 voltou ao topo das categorias Absoluto e Pesadíssimo, derrotando nomes como Erberth Santos e Leandro Lo.</p>
+
+            <p>Buchecha também teve participações marcantes em eventos como Metamoris 2012, onde empatou com Roger Gracie, e no Gracie Pro 2017, em que foi derrotado por Roger em um duelo histórico.</p>
+
+            <p>No ADCC 2019, mesmo sendo favorito, foi eliminado por Kaynan Duarte em luta muito equilibrada. Em 2020, anunciou sua transição para o MMA, assinando com o ONE FC e iniciando uma nova fase em sua carreira.</p>
+
+            <p>Hoje, Buchecha segue construindo seu legado no MMA, enquanto continua sendo considerado um dos maiores praticantes de Jiu-Jitsu de todos os tempos.</p>
+
+          </div>
+        </div>
+      </div>
+
+      <img src="img/48d9183939c22aecd6e3100a88c4ac96.png" class="foto" alt="Buchecha">
+
+      <footer class="rodape">
+        <h4>Feito por Luiz Fernando e Shara</h4>
+        <h4>Email de Contato: exemplo@gmail.com</h4>
+        <h4>Telefone: (99) 99999-9999</h4>
+      </footer>
+
+    </div>
+
+    <script src="bootstrap-5.3.7-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

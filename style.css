@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Coolvetica;
+    src: url(fonts/Coolvetica\ Rg.otf);
+}
+@font-face {
+    font-family: LemonMilk;
+    src: url(fonts/LEMONMILK-Light.otf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Italic.ttf);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: LemonMilk;
+}
+
+#Text1 {
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+
+#Text2 {
+    font-size: 23px;
+    margin-top: 50px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+.navbar {
+    margin-top: 37px;
+}
+
+.txt {
+    text-align: center; 
+    margin-top: 200px;
+    color: white;
+    filter: brightness(1);
+}
+
+.card-title {
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.carousel {
+    margin-top: 5cm;
+}
+
+.card {
+    margin-top: 70px;
+}
+
+ /*
+.card {
+    filter: brightness(0.6);
+     transition: 0.5s;
+}
+
+.card:hover {
+    filter: brightness(0.9);
+}
+    */
+
+.paragrafo {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+    font-family: Roboto;
+
+
+}
+
+.titulo {
+    margin-top: 30px;
+    text-align: center;
+    font-family: LemonMilk;
+}
+
+.form-group {
+    margin-top: 30px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    font-family: Coolvetica;
+}
+
+h4 {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+

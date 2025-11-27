@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página sobre Jiu Jitsu - Carlos "O Guardião" Silva</title>
+    
+    <!-- Link para o Bootstrap 5.3.7 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+
+
+   
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://via.placeholder.com/1600x900/cccccc/ffffff?text=Jiu+Jitsu') no-repeat center center fixed;
+            background-size: cover;
+            color: #0a0a0a;
+        }
+
+        .navbar {
+            background-color: #343a40 !important;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        .hero-section {
+            padding: 120px 0;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .card-body p {
+            text-align: justify;
+        }
+
+        .timeline {
+            position: relative;
+            padding: 40px 0;
+        }
+
+        .timeline-item {
+            margin-bottom: 20px;
+        }
+
+        .timeline-item::before {
+            content: "";
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #ff9900;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 0;
+        }
+
+        .timeline-item .timeline-content {
+            padding-left: 40px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1140px;
+        }
+
+        .btn-custom {
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .btn-custom:hover {
+            background-color: #e68900;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Carlos Gracie</a>
+        </div>
+    </nav>
+
+    <!-- Seção de Hero -->
+    <div class="hero-section">
+        <h1>Carlos Gracie</h1>
+        <p>O Fundador do Jiu Jitsu Brasileiro</p>
+    </div>
+
+    <!-- Seção de Biografia -->
+    <div class="container mt-5">
+        <div class="section-title">Biografia</div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="./img/carlos-gracie-jiu-jitsu.png" alt="Carlos Gracie" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Carlos Gracie</h5>
+                        <p class="card-text">
+                            Nascido em 14 de setembro de 1902, no Rio de Janeiro, Carlos Gracie foi o responsável por popularizar o Jiu Jitsu no Brasil e no mundo. Junto com seus irmãos, especialmente Helio Gracie, ele ajudou a transformar o Jiu Jitsu em uma arte marcial distinta, enfatizando a técnica e a estratégia sobre a força bruta.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Estilo de Luta</h5>
+                        <p class="card-text">
+                            Carlos Gracie foi um mestre no Jiu Jitsu tradicional, combinando técnicas de controle, defesa e finalização. Seu estilo de luta foi baseado em usar a técnica superior e as alavancas para derrotar o oponente, mesmo que ele fosse maior e mais forte. Ele ajudou a criar o sistema de graduação do Jiu Jitsu, que é utilizado até hoje.
+                        </p>
+                        <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#styleModal">Saiba mais sobre seu estilo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção de Timeline de Conquistas -->
+    <div class="container timeline mt-5">
+        <div class="section-title">Conquistas de Carlos Gracie</div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h5 class="card-title">Fundação da Academia Gracie (1925)</h5>
+                        <p>Em 1925, Carlos fundou a primeira academia de Jiu Jitsu no Brasil, onde ele e seus irmãos ensinaram as técnicas da arte marcial para muitos alunos. Foi o ponto de partida para a popularização do Jiu Jitsu no país.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h5 class="card-title">Desafios de Vale-Tudo</h5>
+                        <p>Nos anos 1930 e 1940, Carlos organizou vários desafios de Vale-Tudo, onde os lutadores de diversas artes marciais se enfrentavam, e os membros da família Gracie sempre se saíam vitoriosos, mostrando a eficácia do Jiu Jitsu.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h5 class="card-title">Expansão do Jiu Jitsu pelo Mundo</h5>
+                        <p>O legado de Carlos se expandiu além do Brasil. Seus filhos, netos e alunos seguiram o seu caminho, levando o Jiu Jitsu para outros países e criando academias internacionais, como é o caso de Royce Gracie, que se tornou uma lenda no UFC.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção de Filosofia de Treinamento -->
+    <div class="container mt-5">
+        <div class="section-title">Filosofia de Treinamento</div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Carlos Gracie acreditava que o Jiu Jitsu não era apenas uma técnica de luta, mas um caminho para o autodesenvolvimento. Para ele, a disciplina, a paciência e o respeito eram fundamentais para alcançar a maestria tanto no tatame quanto na vida. Ele sempre ensinava seus alunos a buscar o equilíbrio entre o corpo e a mente.
+                        </p>
+                        <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#philosophyModal">Saiba mais sobre sua filosofia</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="py-4 text-center">
+        <p>&copy; 2025 Carlos Gracie. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Modal para Estilo de Luta -->
+    <div class="modal fade" id="styleModal" tabindex="-1" aria-labelledby="styleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="styleModalLabel">Estilo de Luta de Carlos Gracie</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Estilo de Luta:</strong> Carlos Gracie era conhecido por suas técnicas de guarda, controle de posição e finalizações. Ele sempre enfatizou a importância do uso da alavanca para permitir que um lutador mais leve vencesse oponentes mais fortes. O estilo de luta dos Gracie é baseado em controle, desgaste do adversário e transições rápidas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Filosofia de Treinamento -->
+    <div class="modal fade" id="philosophyModal" tabindex="-1" aria-labelledby="philosophyModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="philosophyModalLabel">Filosofia de Treinamento de Carlos Gracie</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Filosofia de Treinamento:</strong> Carlos acreditava que o Jiu Jitsu era uma arte marcial que cultivava a disciplina mental e física. Ele enfatizava a importância da paciência, do respeito e da perseverança. Para ele, o treinamento no Jiu Jitsu não era apenas sobre lutar, mas sobre melhorar como ser humano.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
